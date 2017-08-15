@@ -1,0 +1,14 @@
+{
+  "log_level": "DEBUG",
+  "listen_ip": "172.16.2.100",
+  "listen_port": 9008,
+  "backlog": 500,
+  "auth_key": "12345678",
+
+  "rest_ip": "172.16.2.100",
+  "rest_port": 9889,
+  "rest_key": "12345678",
+
+  "request_timeout": 5,
+  "max_allow_timeout": 7200
+}

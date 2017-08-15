@@ -1,0 +1,8 @@
+{
+  "recv": {
+    "body": "$#ignore#$<starttime>$!answered_time!$</starttime>$#ignore#$<endtime>$!disconnected_time!$</endtime>$#ignore#$<status>$!status!$</status>$#ignore#$<callId>$&callId&$</callId>$#ignore#$"
+  },
+  "send": {
+    "body": "<result>0</result>"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "options": {
+    "generate_status": 1
+  },
+  "send": {
+    "url": "http://172.16.2.100:9889/request",
+    "method": "POST",
+    "head": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "sigkey": "$!sigkey(\"api\", \"123456\", $#now#$)!$"
+    },
+    "body": "<caller>$&aCaller&$</caller><callee>$&aCallee&$</callee><callId$&callId&$</callId>"
+  },
+  "recv": {
+    "body": "<result>$&result&$</result>"
+  }
+}
